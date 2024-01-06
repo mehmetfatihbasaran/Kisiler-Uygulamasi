@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "daa67b6b78764872c740312ec7981d58",
+    "entities": [
+      {
+        "tableName": "kisiler",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`kisi_id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `kisi_ad` TEXT NOT NULL, `kisi_tel` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "kisi_id",
+            "columnName": "kisi_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kisi_ad",
+            "columnName": "kisi_ad",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kisi_tel",
+            "columnName": "kisi_tel",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "kisi_id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'daa67b6b78764872c740312ec7981d58')"
+    ]
+  }
+}

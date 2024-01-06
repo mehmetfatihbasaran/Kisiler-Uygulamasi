@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "588456555481",
+    "firebase_url": "https://fir-fcm-25dd6-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fir-fcm-25dd6",
+    "storage_bucket": "fir-fcm-25dd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588456555481:android:aee38a5dd76bcde2c81fc8",
+        "android_client_info": {
+          "package_name": "com.example.kisileruygulamasi2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588456555481-fa87bg2vqq4srko47nuqnsjar2qak558.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUc1J09g6HOqzok0w8lodxElsMTMA66k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588456555481-fa87bg2vqq4srko47nuqnsjar2qak558.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588456555481:android:473848ffe2b4a2a8c81fc8",
+        "android_client_info": {
+          "package_name": "com.fatih.firebasefcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588456555481-fa87bg2vqq4srko47nuqnsjar2qak558.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUc1J09g6HOqzok0w8lodxElsMTMA66k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588456555481-fa87bg2vqq4srko47nuqnsjar2qak558.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588456555481:android:fe50fb5f83633ed8c81fc8",
+        "android_client_info": {
+          "package_name": "com.fatih.firebasefcm.view"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588456555481-fa87bg2vqq4srko47nuqnsjar2qak558.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUc1J09g6HOqzok0w8lodxElsMTMA66k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588456555481-fa87bg2vqq4srko47nuqnsjar2qak558.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4283034271531629~6110826868"
+    }
+  ],
+  "configuration_version": "1"
+}
